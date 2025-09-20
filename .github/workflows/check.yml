@@ -18,4 +18,4 @@ jobs:
           cd rustlings_cli
           cargo install --path .
       - name: Run rustlings check-all in mininal set up
-        run: rustlings-hse check-all
+        run: rustlings-hse check-all -m
